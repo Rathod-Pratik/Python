@@ -28,6 +28,41 @@ This repo is perfect for:
 
 ## 🚀 Getting Started
 
+### 🖥️ Running Locally
+
+1. **Install Python**
+   - Download and install Python from [python.org](https://www.python.org/downloads/).
+   - Make sure to check "Add Python to PATH" during installation.
+
+2. **Clone this repository**
+   ```sh
+   git clone https://github.com/your-username/Python-Basics-Collection.git
+   cd Python-Basics-Collection
+   ```
+
+3. **(Optional) Create a Virtual Environment**
+   - Open a terminal in the project folder and run:
+     ```sh
+     python -m venv venv
+     # Activate the environment:
+     # On Windows:
+     venv\Scripts\activate
+     # On macOS/Linux:
+     source venv/bin/activate
+     ```
+
+4. **Install any required packages**
+   - For files using external libraries (e.g., `seaborn`, `matplotlib`):
+     ```sh
+     pip install seaborn matplotlib
+     ```
+
+5. **Run any Python file**
+   - Example:
+     ```sh
+     python 01.Basic.py
+     ```
+
 📌 Topics Covered
 Topic	Description
 Operators	Arithmetic, logical, relational, etc.
