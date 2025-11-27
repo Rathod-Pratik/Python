@@ -1,31 +1,23 @@
 Name=["Rahan","Mohan","Anish","Mohit","Dax"] 
 
-#Print value using index from List
-print(Name[1]) 
+print(Name[1])  #Print value using index from List
 
-#Print multiple Value
-print(Name[2:4]) 
+print(Name[2:4]) #Print multiple Value
 
-#Count Mohan in List
-print(Name.count('Mohan'));
+print(Name.count('Mohan'));  #Count Mohan in List
 
-#Short List
-NumberList=[90,58,14,87,100,65,47,19,81]
+NumberList=[90,58,14,87,100,65,47,19,81] #Short List
 NumberList.sort();
 print(NumberList)
 
-#Revese List
-NumberList.reverse()
+NumberList.reverse() #Revese List
 print(NumberList)
 
-#Append Value at the end
-Name.append("krish")
+Name.append("krish") #Append Value at the end
 print(Name[5])
 
-# Remove Value from the List
-Name.pop(4)
+Name.pop(4) # Remove Value from the List
 print(Name)
 
-# Insert Value at any index
-Name.insert(2,"Karan")
+Name.insert(2,"Karan") # Insert Value at any index
 print(Name)
